@@ -1,0 +1,41 @@
+body{
+    background-image:  url("../imgs/background.jfif");
+    background-size: cover;
+}
+
+.container{
+    width: 90%;
+    margin: 5%;
+}
+
+.card{
+    background-color: black;
+    backdrop-filter: blur(20px);
+    box-shadow: 20px 20px 50px rgb(0, 0, 0);
+    width:calc(92% / 4);
+    float: left;
+    margin: 1%;
+    text-align: center;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+img{
+    width: 100%;
+    text-align :center;
+    border-radius: 15px;
+}
+
+h3{
+    margin-top: 0px;
+}
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(89, 42, 199);
+}
